@@ -1,0 +1,79 @@
+Ar: !!set
+  0: null
+As: !!set
+  1: null
+  2: null
+  3: null
+B: !!set
+  1: null
+  2: null
+  3: null
+Be: !!set
+  0: null
+Br: !!set
+  0: null
+  1: null
+C: !!set
+  1: null
+  2: null
+  3: null
+  4: null
+Ca: !!set
+  0: null
+Cl: !!set
+  0: null
+  1: null
+F: !!set
+  0: null
+  1: null
+Ga: !!set
+  3: null
+Ge: !!set
+  1: null
+  2: null
+  3: null
+  4: null
+H: !!set
+  0: null
+  1: null
+He: !!set
+  0: null
+Mg: !!set
+  0: null
+N: !!set
+  1: null
+  2: null
+  3: null
+  4: null
+O: !!set
+  0: null
+  1: null
+  2: null
+P: !!set
+  1: null
+  2: null
+  3: null
+  4: null
+  5: null
+  7: null
+S: !!set
+  0: null
+  1: null
+  2: null
+  3: null
+  4: null
+  5: null
+  6: null
+Se: !!set
+  1: null
+  2: null
+Si: !!set
+  1: null
+  2: null
+  3: null
+  4: null
+  6: null
+Ti: !!set
+  3: null
+Zn: !!set
+  0: null
