@@ -11,6 +11,8 @@ This is the official implementation of the paper **UniGEM: A Unified Approach to
 Download link: [Baidu Netdisk](https://pan.baidu.com/s/1MFs_AOdmMA1KiYYW7mPlvA)  
 Extract code: **j6ih**  
 
+Download link: [DropBox](https://www.dropbox.com/scl/fo/l7apifqyp9bgdu7flrlrr/APisremaZ5XfievFK6wnFQI?rlkey=ulfrhizja7qptxn7sv0s3lb9c&st=13v8cs6o&dl=0)
+
 - **split_k8_t10_with_atom_type_prop_pred_lumo**: Unified QM9 model for molecular generation and property prediction (LUMO).  
 - **geom_drugs_model**: Model for **GEOM-Drugs** molecular generation.  
 - **bfn_k8_atomtype_prop_pred_t150_resume3_resume**: QM9 generation model with **BFN** coordinate generation algorithm.  
