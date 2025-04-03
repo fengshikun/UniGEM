@@ -41,7 +41,7 @@ CUDA_VISIBLE_DEVICES=0 python -u main_qm9.py --n_epochs 3000 --exp_name split_k8
 #### Test Model - Generation
 
 ```bash
-python -u eval_analyze.py --model_path /nfs/SKData/ssd_data/UniGEM_Data/models/split_k8_t10_with_atom_type_prop_pred_lumo \
+python -u eval_analyze.py --model_path /nfs/SKData/ssd_data/UniGEM_Data/models/split_k8_t10_with_atom_type_prop_pred_homo \
     --n_samples 10_000 --save_to_xyz 1 --checkpoint_epoch 2000
 ```
 
@@ -51,7 +51,7 @@ python -u eval_analyze.py --model_path /nfs/SKData/ssd_data/UniGEM_Data/models/s
 ```bash
 cd qm9/property_prediction
 CUDA_VISIBLE_DEVICES=0 python -u eval_prop_pred.py --num_workers 2 --lr 5e-4 --property lumo --model_name egnn \
-    --generators_path /nfs/SKData/ssd_data/UniGEM_Data/models/split_k8_t10_with_atom_type_prop_pred_lumo \
+    --generators_path /nfs/SKData/ssd_data/UniGEM_Data/models/split_k8_t10_with_atom_type_prop_pred_homo \
     --model_path generative_model_ema_2000.npy
 ```
 
